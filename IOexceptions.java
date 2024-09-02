@@ -3,8 +3,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class FileReaderExample {
-    public static void main(String[] args) {
-        // Path to the file to be read
+    public static void main(String[] args){
         String filePath = "example.txt";
         
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
